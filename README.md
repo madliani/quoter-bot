@@ -64,7 +64,7 @@ Follow these steps to set up the bot:
 3. Set up the frequency of messages sent by the bot, your bot token, your
    database token, and your database URL:
 
-    Create a `.env` file in the root directory and add the following lines:
+    Create a `.env` file in the root directory, and add the following lines:
 
     ```bash
     FREQUENCY=your-frequency # in minutes
