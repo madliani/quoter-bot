@@ -105,7 +105,6 @@ The bot supports the following commands:
 
 ## Project Structure
 
-- `.vscode/`: a directory containing `VS Code` preferences.
 - `assets/`: a directory containing assets for the `README.md` file.
     - `assets/icons/`: a directory containing icons for the `README.md` file.
         - `assets/icons/quoter.png`: the bot icon.
@@ -119,19 +118,26 @@ The bot supports the following commands:
     - `src/types/`: a directory containing the type declarations for the entry
       point of the program.
     - `src/main.ts`: a file containing the entry point of the program.
+- `types/`: a directory containing the type declarations for the configuration
+  files.
 - `.env`: an environment variables file.
 - `.gitattributes`: a `Git` attributes file.
 - `.gitignore`: a `Git` ignore file.
 - `.prettierignore`: a `Prettier` ignore file.
+- `AUTHORS.txt`: a `AUTHORS` file.
 - `CHANGELOG.md`: a `CHANGELOG.md` file.
 - `CONTRIBUTING.md`: a `CONTRIBUTING.md` file.
+- `cspell.config.js`: a JavaScript-based `cSpell` configuration file.
 - `eslint.config.js`: a JavaScript-based `ESLint` configuration file.
-- `LICENSE.txt`: a `Unlicense` license file.
+- `LICENSE.txt`: a license file.
 - `package.json`: a `package.json` file.
 - `pnpm-lock.yaml`: a `pnpm` lockfile.
+- `pnpm-workspace.yaml`: a `pnpm` Workspace file.
 - `prettier.config.js`: a JavaScript-based `Prettier` configuration file.
-- `README.md`: a `README.md` file.
-- `tsconfig.json`: a `TypeScript` configuration file.
+- `README.md`: a `README` file.
+- `tsconfig.app.json`: a `TypeScript` configuration file for the bot.
+- `tsconfig.json`: a base `TypeScript` configuration file.
+- `tsconfig.json`: a main `TypeScript` configuration file.
 - `tsdown.config.js`: a JavaScript-based `tsdown` configuration file.
 - `vitest.config.js`: a JavaScript-based `Vitest` configuration file.
 
