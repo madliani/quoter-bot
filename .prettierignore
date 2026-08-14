@@ -1,0 +1,24 @@
+# Environment variables
+.env*
+
+# Node.js
+node_modules/
+
+# TypeScript
+.tsbuildinfo
+
+# Logs
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# tsdown
+dist/
+
+# Vitest
+coverage/
+html/
+
+# pnpm
+pnpm-lock.yaml

@@ -1,0 +1,87 @@
+{
+    "author": {
+        "email": "unixsocket@hotmail.com",
+        "name": "madliani",
+        "url": "https://madliani-cv.vercel.app/"
+    },
+    "bugs": {
+        "email": "unixsocket@hotmail.com",
+        "url": "https://github.com/madliani/quoter-bot/issues"
+    },
+    "cpu": [
+        "x64"
+    ],
+    "dependencies": {
+        "@upstash/redis": "1.38.2",
+        "axios": "1.19.0",
+        "cheerio": "1.2.0",
+        "grammy": "1.45.1",
+        "tsdown": "0.22.14",
+        "tslib": "2.8.1",
+        "typescript": "6.0.3",
+        "winston": "3.19.0"
+    },
+    "description": "A Telegram bot that displays famous quotes.",
+    "devDependencies": {
+        "@cspell/dict-ru_ru": "2.3.2",
+        "@eslint/js": "10.0.1",
+        "@eslint/json": "2.0.1",
+        "@types/node": "26.2.0",
+        "@vitest/coverage-v8": "4.1.10",
+        "@vitest/ui": "4.1.10",
+        "cspell": "10.0.1",
+        "env-cmd": "11.0.0",
+        "eslint": "10.8.1",
+        "eslint-import-resolver-typescript": "4.4.5",
+        "eslint-plugin-import": "2.32.0",
+        "eslint-plugin-n": "18.3.0",
+        "eslint-plugin-no-secrets": "2.3.3",
+        "eslint-plugin-perfectionist": "5.10.1",
+        "eslint-plugin-security": "4.0.1",
+        "globals": "17.11.0",
+        "prettier": "3.9.6",
+        "typescript-eslint": "8.67.0",
+        "vitest": "4.1.10"
+    },
+    "engineStrict": false,
+    "engines": {
+        "node": "v26.7.0"
+    },
+    "homepage": "https://github.com/madliani/quoter-bot#readme",
+    "keywords": [
+        "grammy",
+        "nodejs",
+        "parser",
+        "quotepark",
+        "quoter-bot",
+        "quotes",
+        "scraper",
+        "telegram-bot",
+        "typescript",
+        "upstash"
+    ],
+    "license": "Unlicense",
+    "name": "quoter-bot",
+    "os": [
+        "linux"
+    ],
+    "private": true,
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/madliani/quoter-bot.git"
+    },
+    "scripts": {
+        "build": "tsdown",
+        "build:release": "tsdown --minify --shims",
+        "check:format": "prettier ./ --write --ignore-unknown",
+        "check:lint": "eslint --fix && tsc",
+        "check:spell": "cspell ./",
+        "start": "env-cmd -- node ./dist/quoter.mjs",
+        "start:release": "node ./dist/quoter.mjs",
+        "test": "vitest run",
+        "test:coverage": "vitest run --coverage",
+        "test:ui": "vitest watch --ui --coverage.enabled=true"
+    },
+    "type": "module",
+    "version": "1.1.5"
+}

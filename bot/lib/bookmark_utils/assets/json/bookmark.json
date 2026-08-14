@@ -1,0 +1,13 @@
+{
+    "bookmark__clear_already-cleared": "Bookmark list has already been cleared.",
+    "bookmark__clear_success": "Bookmarks successfully cleared.",
+    "bookmark__delete_invalid-number": "The specified bookmark number is invalid.",
+    "bookmark__delete_no-number": "Please specify the bookmark number to delete, e.g. /delete 2.",
+    "bookmark__delete_out-of-range": "Bookmark number is out of range.",
+    "bookmark__delete_success": "Bookmark successfully deleted.",
+    "bookmark__guard_blocked": "The activity of the bot has been stopped. To use this feature, please start the bot.",
+    "bookmark__list_is-empty": "Bookmark list is empty.",
+    "bookmark__list_success": "Bookmark list:",
+    "bookmark__save_error": "Bookmark has already been saved.",
+    "bookmark__save_success": "Bookmark successfully saved."
+}

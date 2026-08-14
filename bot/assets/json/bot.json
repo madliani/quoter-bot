@@ -1,0 +1,7 @@
+{
+    "bot__help_attributions": "Attributions:\n- The source of quotes is QuotePark (https://quotepark.com/).",
+    "bot__help_commands": "The bot supports the following commands:\n- /start — to start the bot;\n- /help — to get help with the bot;\n- /bookmarks — to view bookmarks;\n- /save — to save a bookmark;\n- /delete <a bookmark index> — to delete a bookmark by index;\n- /clear — to clear bookmarks.",
+    "bot__help_overview": "This is a Telegram bot that displays famous quotes.",
+    "bot__stop_error": "The activity of the bot has already been stopped.",
+    "bot__stop_success": "The activity of the bot successfully stopped."
+}

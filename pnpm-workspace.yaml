@@ -1,0 +1,6 @@
+autoInstallPeers: true
+blockExoticSubdeps: true
+ignoreScripts: true
+lockfile: true
+minimumReleaseAge: 1440
+nodeLinker: hoisted
