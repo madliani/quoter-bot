@@ -72,15 +72,6 @@
         "useUnknownInCatchVariables": true,
         "verbatimModuleSyntax": true
     },
-    "exclude": [
-        "${configDir}/coverage/",
-        "${configDir}/dist/",
-        "${configDir}/html/",
-        "${configDir}/node_modules/"
-    ],
-    "include": [
-        "${configDir}/bot/**/*.ts",
-        "${configDir}/lib/**/*.ts",
-        "${configDir}/src/**/*.ts"
-    ]
+    "exclude": ["coverage/", "dist/", "html/", "node_modules/"],
+    "include": ["bot/**/*.ts", "lib/**/*.ts", "src/**/*.ts"]
 }
