@@ -49,14 +49,15 @@
     },
     "homepage": "https://github.com/madliani/quoter-bot#readme",
     "keywords": [
-        "grammy",
+        "bot",
+        "grammyjs",
         "nodejs",
         "parser",
         "quotepark",
         "quoter-bot",
         "quotes",
         "scraper",
-        "telegram-bot",
+        "telegram",
         "typescript",
         "upstash"
     ],
