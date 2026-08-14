@@ -12,11 +12,11 @@ import { configs as tsConfigs } from "typescript-eslint"
 /** @type {import("eslint/config").Config} */
 export default defineConfig([
     globalIgnores([
-        "./coverage/",
-        "./dist/",
-        "./html/",
-        "./node_modules/",
-        "./package-lock.json"
+        "coverage/",
+        "dist/",
+        "html/",
+        "node_modules/",
+        "package-lock.json"
     ]),
     {
         extends: [
