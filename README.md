@@ -40,8 +40,7 @@ This is a Telegram bot that displays famous quotes.
 Before setting up the bot, make sure you have:
 
 1. A [Telegram account](https://telegram.org/).
-2. Created a bot on Telegram via
-   [BotFather](https://core.telegram.org/bots#botfather).
+2. A [Telegram bot](https://core.telegram.org/bots).
 3. A token from BotFather to authenticate your bot.
 4. A Redis storage on [Upstash](https://upstash.com/).
 
