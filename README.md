@@ -61,7 +61,8 @@ Follow these steps to set up the bot:
     pnpm install
     ```
 
-3. Set up your bot token, your storage token and your storage URL:
+3. Set up the frequency of messages sent by the bot, your bot token, your
+   storage token, and your storage URL:
 
     Create a `.env` file in the root directory and add the following lines:
 
