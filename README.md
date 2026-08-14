@@ -66,7 +66,7 @@ Follow these steps to set up the bot:
     Create a `.env` file in the root directory and add the following lines:
 
     ```bash
-    FREQUENCY=your-frequency-in-minutes
+    FREQUENCY=your-frequency # in minutes
     TELEGRAM_BOT_TOKEN=your-bot-token
     UPSTASH_REDIS_REST_TOKEN=your-storage-token
     UPSTASH_REDIS_REST_URL=your-storage-url
