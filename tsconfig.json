@@ -66,7 +66,7 @@
         "strictNullChecks": true,
         "strictPropertyInitialization": true,
         "target": "ES2022",
-        "tsBuildInfoFile": ".tsbuildinfo",
+        "tsBuildInfoFile": "${configDir}/.tsbuildinfo",
         "types": ["node"],
         "useDefineForClassFields": true,
         "useUnknownInCatchVariables": true,
