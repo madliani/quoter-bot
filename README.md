@@ -55,7 +55,7 @@ Follow these steps to set up the bot:
     cd quoter-bot
     ```
 
-2. Install the dependencies:
+2. Install dependencies:
 
     ```bash
     pnpm install
