@@ -42,7 +42,7 @@ Before setting up the bot, make sure you have:
 1. A [Telegram account](https://telegram.org/).
 2. A [Telegram bot](https://core.telegram.org/bots).
 3. A token from BotFather to authenticate your bot.
-4. A Redis storage on [Upstash](https://upstash.com/).
+4. A Redis database on [Upstash](https://upstash.com/).
 
 ## Installation
 
@@ -62,15 +62,15 @@ Follow these steps to set up the bot:
     ```
 
 3. Set up the frequency of messages sent by the bot, your bot token, your
-   storage token, and your storage URL:
+   database token, and your database URL:
 
     Create a `.env` file in the root directory and add the following lines:
 
     ```bash
     FREQUENCY=your-frequency # in minutes
     TELEGRAM_BOT_TOKEN=your-bot-token
-    UPSTASH_REDIS_REST_TOKEN=your-storage-token
-    UPSTASH_REDIS_REST_URL=your-storage-url
+    UPSTASH_REDIS_REST_TOKEN=your-db-token
+    UPSTASH_REDIS_REST_URL=your-db-url
     ```
 
 4. Run the tests:
