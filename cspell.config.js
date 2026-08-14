@@ -17,7 +17,9 @@ const englishWords = [
     "grammyjs",
     "madliani",
     "quotepark",
-    "savebookmark"
+    "savebookmark",
+    "tsdown",
+    "Vitest"
 ]
 
 const russianWords = []
