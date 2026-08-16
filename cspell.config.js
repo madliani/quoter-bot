@@ -5,9 +5,8 @@ const PL_DICT = "typescript, node, html, css"
 const MISCELLANEOUS_DICT = "fonts, fileTypes, npm"
 const RUSSIAN_DICT = "ru, ru-RU"
 
-const language = [GENERAL_DICT, PL_DICT, MISCELLANEOUS_DICT, RUSSIAN_DICT].join(
-    ","
-)
+const dicts = [GENERAL_DICT, PL_DICT, MISCELLANEOUS_DICT, RUSSIAN_DICT]
+const language = dicts.join(",")
 
 const englishWords = [
     "asynciterable",
