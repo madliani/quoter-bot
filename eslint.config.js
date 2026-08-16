@@ -1,10 +1,8 @@
 import pluginJS from "@eslint/js"
 import pluginJSON from "@eslint/json"
 import pluginImport from "eslint-plugin-import"
-import pluginNodeJS from "eslint-plugin-n"
 import pluginNoSecrets from "eslint-plugin-no-secrets"
 import pluginPerfect from "eslint-plugin-perfectionist"
-import pluginSec from "eslint-plugin-security"
 import { defineConfig, globalIgnores } from "eslint/config"
 import globals from "globals"
 import typescript from "typescript-eslint"
@@ -24,8 +22,6 @@ export default defineConfig([
             pluginImport.flatConfigs.recommended,
             pluginImport.flatConfigs.typescript,
             pluginJS.configs.recommended,
-            pluginNodeJS.configs["flat/recommended"],
-            pluginSec.configs.recommended,
             typescript.configs.eslintRecommended,
             typescript.configs.strict,
             typescript.configs.stylistic
