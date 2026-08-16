@@ -33,7 +33,7 @@ This is a Telegram bot that displays famous quotes.
 ## Requirements
 
 - `Node.js` runtime environment for running the bot.
-- `pnpm` package manager for installing the dependencies.
+- `pnpm` package manager for installing dependencies.
 
 ## Prerequisites
 
@@ -55,7 +55,7 @@ Follow these steps to set up the bot:
     cd quoter-bot
     ```
 
-2. Install the dependencies:
+2. Install dependencies:
 
     ```bash
     pnpm install
@@ -73,7 +73,7 @@ Follow these steps to set up the bot:
     UPSTASH_REDIS_REST_URL=your-db-url
     ```
 
-4. Run the tests:
+4. Run tests:
 
     ```bash
     pnpm test
@@ -179,4 +179,4 @@ These dependencies are necessary for other dependencies to work correctly.
 
 - **Quote icon** (`./assets/icons/quote.png`), created by Nick Roach and
   licensed under the [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) license.
-- The source of the quotes is the [Quotepark.com](https://quotepark.com/).
+- The source of the quotes is [Quotepark.com](https://quotepark.com/).
