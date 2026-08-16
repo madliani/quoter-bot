@@ -42,7 +42,7 @@ Before setting up the bot, make sure you have:
 1. A [Telegram account](https://telegram.org/).
 2. A [Telegram bot](https://core.telegram.org/bots).
 3. A token from the BotFather to authenticate your bot.
-4. A Redis database on [Upstash](https://upstash.com/).
+4. A Redis database on the [Upstash](https://upstash.com/).
 
 ## Installation
 
