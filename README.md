@@ -150,9 +150,9 @@ The bot supports the following commands:
 ## FAQs
 
 <details>
-<summary>Under what license is the project's source code distributed?</summary>
+<summary>Under what license is the source code distributed?</summary>
 
-The project is distributed under the [Unlicense license](./LICENSE.txt).
+The source code is distributed under the [Unlicense license](./LICENSE.txt).
 
 </details>
 
