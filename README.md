@@ -99,7 +99,7 @@ The bot supports the following commands:
 - `/clearbookmarks`: to clear bookmarks.
 - `/deletebookmark <a bookmark index>`: to delete a bookmark by index.
 - `/help`: to get help with the bot.
-- `/savebookmark`: to save a last quote.
+- `/savebookmark`: to save the last quote.
 - `/start`: to start the bot.
 - `/stop`: to stop the bot activity.
 
