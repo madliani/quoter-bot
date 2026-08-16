@@ -151,7 +151,7 @@ The bot supports the following commands:
 <details>
 <summary>Under what license is the project's source code distributed?</summary>
 
-The project is distributed under [Unlicense license](./LICENSE.txt).
+The project is distributed under the [Unlicense license](./LICENSE.txt).
 
 </details>
 
@@ -176,6 +176,6 @@ These dependencies are necessary for other dependencies to work correctly.
 
 ## Attributions
 
-- **Quote icon** (`./assets/icons/quote.png`) created by Nick Roach and licensed
-  under [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html).
-- The source of quotes is [Quotepark.com](https://quotepark.com/).
+- **Quote icon** (`./assets/icons/quote.png`), created by Nick Roach and
+  licensed under [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html).
+- The source of quotes is the [Quotepark.com](https://quotepark.com/).
