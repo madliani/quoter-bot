@@ -33,7 +33,7 @@ This is a Telegram bot that displays famous quotes.
 ## Requirements
 
 - `Node.js` runtime environment for running the bot.
-- `pnpm` package manager for installing dependencies.
+- `pnpm` package manager for installing the dependencies.
 
 ## Prerequisites
 
@@ -55,7 +55,7 @@ Follow these steps to set up the bot:
     cd quoter-bot
     ```
 
-2. Install dependencies:
+2. Install the dependencies:
 
     ```bash
     pnpm install
