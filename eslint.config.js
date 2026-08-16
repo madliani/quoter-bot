@@ -7,7 +7,7 @@ import { configs as perfectConfigs } from "eslint-plugin-perfectionist"
 import pluginSec from "eslint-plugin-security"
 import { defineConfig, globalIgnores } from "eslint/config"
 import globals from "globals"
-import { configs as tsConfigs } from "typescript-eslint"
+import { configs as tsConfigs, parser as tsParser } from "typescript-eslint"
 
 /** @type {import("eslint/config").Config} */
 export default defineConfig([
@@ -34,6 +34,7 @@ export default defineConfig([
         languageOptions: {
             ecmaVersion: 2022,
             globals: { ...globals.node },
+            parser: tsParser,
             parserOptions: {
                 allowReserved: false,
                 ecmaFeatures: { globalReturn: false, impliedStrict: true }
