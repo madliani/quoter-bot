@@ -3,11 +3,11 @@ import pluginJSON from "@eslint/json"
 import pluginImport from "eslint-plugin-import"
 import pluginNodeJS from "eslint-plugin-n"
 import pluginNoSecrets from "eslint-plugin-no-secrets"
-import { configs as perfectConfigs } from "eslint-plugin-perfectionist"
+import pluginPerfect from "eslint-plugin-perfectionist"
 import pluginSec from "eslint-plugin-security"
 import { defineConfig, globalIgnores } from "eslint/config"
 import globals from "globals"
-import { configs as tsConfigs, parser as tsParser } from "typescript-eslint"
+import typescript from "typescript-eslint"
 
 /** @type {import("eslint/config").Config} */
 export default defineConfig([
@@ -20,21 +20,21 @@ export default defineConfig([
     ]),
     {
         extends: [
-            perfectConfigs["recommended-alphabetical"],
+            pluginPerfect.configs["recommended-alphabetical"],
             pluginImport.flatConfigs.recommended,
             pluginImport.flatConfigs.typescript,
             pluginJS.configs.recommended,
             pluginNodeJS.configs["flat/recommended"],
             pluginSec.configs.recommended,
-            tsConfigs.eslintRecommended,
-            tsConfigs.strict,
-            tsConfigs.stylistic
+            typescript.configs.eslintRecommended,
+            typescript.configs.strict,
+            typescript.configs.stylistic
         ],
         files: ["*.config.js", "**/*.ts"],
         languageOptions: {
             ecmaVersion: 2022,
             globals: { ...globals.node },
-            parser: tsParser,
+            parser: typescript.parser,
             parserOptions: {
                 allowReserved: false,
                 ecmaFeatures: { globalReturn: false, impliedStrict: true }
@@ -43,6 +43,7 @@ export default defineConfig([
         },
         plugins: { "no-secrets": pluginNoSecrets },
         rules: {
+            "import/no-named-as-default-member": "off",
             "import/order": "off",
             "n/no-missing-import": "off",
             "no-secrets/no-pattern-match": "error",
