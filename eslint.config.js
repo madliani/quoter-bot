@@ -29,7 +29,6 @@ export default defineConfig([
         files: ["*.config.js", "**/*.ts"],
         languageOptions: {
             ecmaVersion: 2022,
-            globals: { ...globals.node },
             parser: typescript.parser,
             parserOptions: {
                 allowReserved: false,
