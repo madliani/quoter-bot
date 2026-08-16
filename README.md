@@ -143,7 +143,7 @@ The bot supports the following commands:
 
 ## Branches
 
-- `stable`: a stable branch for production build.
+- `stable`: a stable branch for production builds.
 - `unstable`: an unstable branch for development and testing.
 
 ## FAQs
