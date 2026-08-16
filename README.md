@@ -105,16 +105,17 @@ The bot supports the following commands:
 
 ## Project Structure
 
-- `assets/`: a directory containing assets for the `README.md` file.
-    - `assets/icons/`: a directory containing icons for the `README.md` file.
+- `assets/`: a directory containing the assets for the `README.md` file.
+    - `assets/icons/`: a directory containing the icons for the `README.md`
+      file.
         - `assets/icons/quoter.png`: the bot icon.
-- `bot/`: a directory containing source files for the bot.
+- `bot/`: a directory containing the source files for the bot.
     - `bot/assets/`: a directory containing the assets for the bot.
-        - `bot/assets/json/`: a directory containing the texts for the bot UI.
-    - `bot/lib/`: a directory containing the libraries for the bot.
-    - `bot/bot.ts`: a file containing the application.
-- `lib/`: a directory containing source files for the libraries.
-- `src/`: a directory containing the entry point of the program.
+        - `bot/assets/json/`: a directory containing the texts for the bot.
+    - `bot/lib/`: a directory containing libraries for the bot.
+    - `bot/bot.ts`: a file containing the bot.
+- `lib/`: a directory containing the source files for libraries for the bot.
+- `src/`: a directory containing the entry point of the `Node.js` program.
     - `src/types/`: a directory containing the type declarations for the entry
       point of the program.
     - `src/main.ts`: a file containing the entry point of the program.
