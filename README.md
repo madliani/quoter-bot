@@ -111,7 +111,7 @@ The bot supports the following commands:
         - `assets/icons/quoter.png`: the bot icon.
 - `bot/`: a directory containing the source files for the bot.
     - `bot/assets/`: a directory containing the assets for the bot.
-        - `bot/assets/json/`: a directory containing the texts for the bot.
+        - `bot/assets/json/`: a directory containing the texts for the bot UI.
     - `bot/lib/`: a directory containing libraries for the bot.
     - `bot/bot.ts`: a file containing the bot.
 - `lib/`: a directory containing the source files for libraries for the bot.
