@@ -124,7 +124,7 @@ The bot supports the following commands:
 - `.gitattributes`: a `Git` attributes file.
 - `.gitignore`: a `Git` ignore file.
 - `.prettierignore`: a `Prettier` ignore file.
-- `AUTHORS.txt`: a `AUTHORS` file.
+- `AUTHORS.txt`: an `AUTHORS` file.
 - `CHANGELOG.md`: a `CHANGELOG.md` file.
 - `CONTRIBUTING.md`: a `CONTRIBUTING.md` file.
 - `cspell.config.js`: a JavaScript-based `cSpell` configuration file.
