@@ -152,7 +152,7 @@ The bot supports the following commands:
 <details>
 <summary>Under what license is the source code distributed?</summary>
 
-The source code is distributed under the [Unlicense license](./LICENSE.txt).
+The source code is distributed under the [Unlicense](./LICENSE.txt) license.
 
 </details>
 
