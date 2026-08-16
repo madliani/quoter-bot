@@ -4,7 +4,6 @@ import pluginImport from "eslint-plugin-import"
 import pluginNoSecrets from "eslint-plugin-no-secrets"
 import pluginPerfect from "eslint-plugin-perfectionist"
 import { defineConfig, globalIgnores } from "eslint/config"
-import globals from "globals"
 import typescript from "typescript-eslint"
 
 /** @type {import("eslint/config").Config} */
@@ -29,6 +28,7 @@ export default defineConfig([
         files: ["*.config.js", "**/*.ts"],
         languageOptions: {
             ecmaVersion: 2022,
+            globals: {},
             parser: typescript.parser,
             parserOptions: {
                 allowReserved: false,
@@ -47,11 +47,7 @@ export default defineConfig([
         },
         settings: { "import/resolver": { typescript: true } }
     },
-    {
-        files: ["*.config.js"],
-        languageOptions: { globals: { ...globals.node } },
-        settings: { "import/resolver": { node: true } }
-    },
+    { files: ["*.config.js"], settings: { "import/resolver": { node: true } } },
     {
         extends: [pluginJSON.configs.recommended],
         files: ["**/*.json"],
