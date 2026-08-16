@@ -73,7 +73,7 @@ Follow these steps to set up the bot:
     UPSTASH_REDIS_REST_URL=your-db-url
     ```
 
-4. Run the tests:
+4. Run tests:
 
     ```bash
     pnpm test
