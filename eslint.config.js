@@ -4,6 +4,7 @@ import pluginImport from "eslint-plugin-import"
 import pluginNoSecrets from "eslint-plugin-no-secrets"
 import pluginPerfect from "eslint-plugin-perfectionist"
 import { defineConfig, globalIgnores } from "eslint/config"
+import globals from "globals"
 import typescript from "typescript-eslint"
 
 /** @type {import("eslint/config").Config} */
@@ -28,7 +29,7 @@ export default defineConfig([
         files: ["*.config.js", "**/*.ts"],
         languageOptions: {
             ecmaVersion: 2022,
-            globals: {},
+            globals: globals.builtin,
             parser: typescript.parser,
             parserOptions: {
                 allowReserved: false,
