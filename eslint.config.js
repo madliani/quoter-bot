@@ -18,13 +18,13 @@ export default defineConfig([
     ]),
     {
         extends: [
-            pluginPerfect.configs["recommended-alphabetical"],
-            pluginImport.flatConfigs.recommended,
-            pluginImport.flatConfigs.typescript,
             pluginJS.configs.recommended,
             ts.configs.eslintRecommended,
             ts.configs.strict,
-            ts.configs.stylistic
+            ts.configs.stylistic,
+            pluginPerfect.configs["recommended-alphabetical"],
+            pluginImport.flatConfigs.recommended,
+            pluginImport.flatConfigs.typescript
         ],
         files: ["*.config.js", "**/*.ts"],
         languageOptions: {
