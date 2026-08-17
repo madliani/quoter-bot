@@ -28,8 +28,8 @@ This is a Telegram bot that displays famous quotes.
 
 ## Requirements
 
-- `Node.js` runtime environment for running the bot.
-- `pnpm` package manager for installing dependencies.
+1. `Node.js` runtime environment for running the bot.
+2. `pnpm` package manager for installing dependencies.
 
 ## Prerequisites
 
