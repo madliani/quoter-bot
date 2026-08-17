@@ -41,7 +41,6 @@ export default defineConfig([
         rules: {
             "import/no-named-as-default-member": "off",
             "import/order": "off",
-            "n/no-missing-import": "off",
             "no-secrets/no-pattern-match": "error",
             "no-secrets/no-secrets": "error",
             "sort-imports": "off"
