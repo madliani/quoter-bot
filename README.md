@@ -41,8 +41,8 @@ Before setting up the bot, make sure you have:
 
 1. a [Telegram account](https://telegram.org/);
 2. a [Telegram bot](https://core.telegram.org/bots);
-3. a token from the BotFather to authenticate your bot;
-4. a Redis database on the [Upstash](https://upstash.com/).
+3. a token from BotFather to authenticate your bot;
+4. a Redis database on [Upstash](https://upstash.com/).
 
 ## Installation
 
@@ -179,4 +179,4 @@ These dependencies are necessary for other dependencies to work correctly.
 
 - The **Quote icon** (`./assets/icons/quote.png`), created by Nick Roach and
   licensed under the [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) license.
-- The source of the quotes is the [Quotepark.com](https://quotepark.com/).
+- The source of the quotes is [Quotepark.com](https://quotepark.com/).
