@@ -5,7 +5,7 @@ import pluginNoSecrets from "eslint-plugin-no-secrets"
 import pluginPerfect from "eslint-plugin-perfectionist"
 import { defineConfig, globalIgnores } from "eslint/config"
 import globals from "globals"
-import typescript from "typescript-eslint"
+import ts from "typescript-eslint"
 
 /** @type {import("eslint/config").Config} */
 export default defineConfig([
@@ -22,15 +22,15 @@ export default defineConfig([
             pluginImport.flatConfigs.recommended,
             pluginImport.flatConfigs.typescript,
             pluginJS.configs.recommended,
-            typescript.configs.eslintRecommended,
-            typescript.configs.strict,
-            typescript.configs.stylistic
+            ts.configs.eslintRecommended,
+            ts.configs.strict,
+            ts.configs.stylistic
         ],
         files: ["*.config.js", "**/*.ts"],
         languageOptions: {
             ecmaVersion: 2022,
             globals: globals.builtin,
-            parser: typescript.parser,
+            parser: ts.parser,
             parserOptions: {
                 allowReserved: false,
                 ecmaFeatures: { globalReturn: false, impliedStrict: true }
