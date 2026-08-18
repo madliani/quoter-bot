@@ -26,6 +26,12 @@
 
 This is a Telegram bot that displays famous quotes.
 
+## Screenshots
+
+![Menu Screenshot](./assets/images/menu-screenshot.png)
+![Chat Screenshot](./assets/images/chat-screenshot.png)
+![Help Screenshot](./assets/images/help-screenshot.png)
+
 ## Requirements
 
 1. `Node.js` runtime environment for running the bot.
