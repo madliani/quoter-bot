@@ -28,9 +28,11 @@ This is a Telegram bot that displays famous quotes.
 
 ## Screenshots
 
-![Chat Screenshot](./assets/images/chat-screenshot.png)
-![Help Screenshot](./assets/images/help-screenshot.png)
-![Menu Screenshot](./assets/images/menu-screenshot.png)
+<p align="center">
+    <img alt="Chat Screenshot" src="./assets/images/chat-screenshot.png">
+    <img alt="Help Screenshot" src="./assets/images/help-screenshot.png">
+    <img alt="Menu Screenshot" src="./assets/images/menu-screenshot.png">
+</p>
 
 ## Requirements
 
