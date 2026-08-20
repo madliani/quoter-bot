@@ -49,15 +49,14 @@
     "keywords": [
         "bot",
         "nodejs",
-        "parser",
         "quotepark",
         "quoter-bot",
         "rolldown",
-        "scraper",
         "telegram",
         "tsdown",
         "typescript",
-        "upstash"
+        "upstash",
+        "web-scraper"
     ],
     "license": "Unlicense",
     "name": "quoter-bot",
