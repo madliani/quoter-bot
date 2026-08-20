@@ -48,14 +48,14 @@
     "homepage": "https://github.com/madliani/quoter-bot#readme",
     "keywords": [
         "bot",
-        "grammyjs",
         "nodejs",
         "parser",
         "quotepark",
         "quoter-bot",
-        "quotes",
+        "rolldown",
         "scraper",
         "telegram",
+        "tsdown",
         "typescript",
         "upstash"
     ],
