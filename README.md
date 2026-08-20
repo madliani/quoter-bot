@@ -51,7 +51,9 @@ Before setting up the bot, make sure you have:
 2. a
    <a href="https://core.telegram.org/bots" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank">Telegram
    bot</a>;
-3. a token from BotFather to authenticate your bot;
+3. a token from
+   <a href="https://telegram.me/BotFather" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank">BotFather</a>
+   to authenticate your bot;
 4. a Redis database on
    <a href="https://upstash.com/" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank">Upstash</a>.
 
