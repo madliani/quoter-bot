@@ -25,14 +25,14 @@ and this project adheres to
 
 - The `cSpell` spell checker.
 
+### Fixed
+
+- The `README.md` file.
+
 ## Changed
 
 - Upgrade dependencies.
 - Project configuration.
-
-### Fixed
-
-- The `README.md` file.
 
 ## [1.1.5] - 2026-05-15
 
