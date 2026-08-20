@@ -12,5 +12,8 @@
         "tsBuildInfoFile": "${configDir}/.tsbuildinfo"
     },
     "files": [],
-    "references": [{ "path": "./tsconfig.app.json" }]
+    "references": [
+        { "path": "./tsconfig.app.json" },
+        { "path": "./tsconfig.test.json" }
+    ]
 }

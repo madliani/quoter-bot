@@ -60,6 +60,5 @@
         "useDefineForClassFields": true,
         "useUnknownInCatchVariables": true,
         "verbatimModuleSyntax": true
-    },
-    "exclude": ["coverage/", "dist/", "html/", "node_modules/"]
+    }
 }
