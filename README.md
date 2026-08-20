@@ -111,6 +111,10 @@ The bot supports the following commands:
     - `assets/icons/`: a directory containing the icons for the `README.md`
       file.
         - `assets/icons/quoter.png`: the bot icon.
+    - `assets/images/`: a directory containing the images for the `README.md`
+      file.
+        - `assets/icons/quoter-description.png`: a description picture for the
+          bot.
 - `bot/`: a directory containing the source files for the bot.
     - `bot/assets/`: a directory containing the assets for the bot.
         - `bot/assets/json/`: a directory containing the texts for the bot UI.
