@@ -1,7 +1,17 @@
 {
     "compilerOptions": {
+        "composite": true,
+        "declaration": true,
+        "declarationMap": true,
+        "emitDeclarationOnly": false,
+        "importHelpers": false,
         "incremental": true,
+        "inlineSourceMap": false,
+        "inlineSources": false,
         "noEmit": true,
+        "noEmitHelpers": false,
+        "noEmitOnError": true,
+        "sourceMap": true,
         "tsBuildInfoFile": "${configDir}/.tsbuildinfo"
     },
     "files": [],

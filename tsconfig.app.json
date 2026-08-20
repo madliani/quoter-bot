@@ -1,8 +1,5 @@
 {
     "compilerOptions": {
-        "composite": true,
-        "declaration": true,
-        "declarationMap": true,
         "paths": {
             "@bot/*": ["${configDir}/bot/*"],
             "@lib/*": ["${configDir}/lib/*"],
