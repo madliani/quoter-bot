@@ -145,6 +145,7 @@ The bot supports the following commands:
 - `tsconfig.app.json`: a `TypeScript` configuration file for the bot.
 - `tsconfig.json`: a base `TypeScript` configuration file.
 - `tsconfig.json`: a main `TypeScript` configuration file.
+- `tsconfig.test.json`: a `TypeScript` configuration file for the tests.
 - `tsdown.config.js`: a JavaScript-based `tsdown` configuration file.
 - `vitest.config.js`: a JavaScript-based `Vitest` configuration file.
 
