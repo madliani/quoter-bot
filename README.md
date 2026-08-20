@@ -45,10 +45,15 @@ This is a Telegram bot that displays famous quotes.
 
 Before setting up the bot, make sure you have:
 
-1. a [Telegram account](https://telegram.org/);
-2. a [Telegram bot](https://core.telegram.org/bots);
+1. a
+   <a href="https://telegram.org/" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank">Telegram
+   account</a>;
+2. a
+   <a href="https://core.telegram.org/bots" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank">Telegram
+   bot</a>;
 3. a token from BotFather to authenticate your bot;
-4. a Redis database on [Upstash](https://upstash.com/).
+4. a Redis database on
+   <a href="https://upstash.com/" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank">Upstash</a>.
 
 ## Installation
 
@@ -189,5 +194,8 @@ These dependencies are necessary for other dependencies to work correctly.
 ## Attributions
 
 - The **Quote icon** (`./assets/icons/quote.png`), created by Nick Roach and
-  licensed under the [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) license.
-- The source of the quotes is [Quotepark.com](https://quotepark.com/).
+  licensed under the
+  <a href="https://www.gnu.org/licenses/gpl-3.0.html" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank">GPLv3</a>
+  license.
+- The source of the quotes is
+  <a href="https://quotepark.com/" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank">Quotepark.com</a>.
