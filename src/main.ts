@@ -9,10 +9,10 @@ import UpstashRedis from "@lib/upstash_redis"
 import process from "node:process"
 
 const MAIN_ERRORS = {
-    ME001: "Telegram Bot token is missing (ME001)",
-    ME002: "Upstash Redis REST token is missing (ME002)",
-    ME003: "Upstash Redis REST URL is missing (ME003)",
-    ME004: "Frequency is missing (ME004)"
+    ME001: "The token for the Telegram bot is missing (ME001)",
+    ME002: "The token for the Redis database by Upstash is missing (ME002)",
+    ME003: "The URL for the Redis database by Upstash is missing (ME003)",
+    ME004: "The frequency of the messages sent by the bot is missing (ME004)"
 }
 
 async function main(): Promise<void> {
