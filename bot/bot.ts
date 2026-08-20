@@ -83,8 +83,8 @@ class TelegramBot {
         logger.error(err.message)
     }
 
-    private async onGracefulShutdown(): Promise<void> {
-        this.quoteRepeater.unset()
+    private async onGracefulShutdown(quoteRepeater: Repeater): Promise<void> {
+        quoteRepeater.unset()
 
         await this.bot.stop()
     }
@@ -160,8 +160,12 @@ class TelegramBot {
     }
 
     private setupGracefulShutdown(): void {
-        process.once("SIGINT", this.onGracefulShutdown)
-        process.once("SIGTERM", this.onGracefulShutdown)
+        process.once("SIGINT", () =>
+            this.onGracefulShutdown(this.quoteRepeater)
+        )
+        process.once("SIGTERM", () =>
+            this.onGracefulShutdown(this.quoteRepeater)
+        )
     }
 
     private async setupSuggestions(): Promise<void> {
