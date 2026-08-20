@@ -3,6 +3,8 @@
 <p align="center">
     <img
         alt="Quoter logo"
+        aria-label="Quoter logo"
+        title="Quoter logo"
         height="96px"
         src="./assets/icons/quote.png"
         width="96px"
@@ -14,12 +16,12 @@
 ## Tech Stack
 
 <p align="center">
-    <img alt="Node.js" src="https://img.shields.io/badge/Node.js-5FA04E.svg?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-    <img alt="Redis" src="https://img.shields.io/badge/Redis-FF4438.svg?style=for-the-badge&logo=Redis&logoColor=white" />
-    <img alt="Rolldown" src="https://img.shields.io/badge/Rolldown-FF4100.svg?style=for-the-badge&logo=Rolldown&logoColor=white" />
-    <img alt="Telegram Bot" src="https://img.shields.io/badge/Telegram-26A5E4.svg?style=for-the-badge&logo=Telegram&logoColor=white" />
-    <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6.svg?style=for-the-badge&logo=TypeScript&logoColor=white" />
-    <img alt="Upstash" src="https://img.shields.io/badge/Upstash-00E9A3.svg?style=for-the-badge&logo=Upstash&logoColor=white" />
+    <img alt="Node.js" aria-label="Node.js" title="Node.js" src="https://img.shields.io/badge/Node.js-5FA04E.svg?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+    <img alt="Redis" aria-label="Redis" title="Redis" src="https://img.shields.io/badge/Redis-FF4438.svg?style=for-the-badge&logo=Redis&logoColor=white" />
+    <img alt="Rolldown" aria-label="Rolldown" title="Rolldown" src="https://img.shields.io/badge/Rolldown-FF4100.svg?style=for-the-badge&logo=Rolldown&logoColor=white" />
+    <img alt="Telegram Bot" arial-label="Telegram Bot" title="Telegram Bot" src="https://img.shields.io/badge/Telegram-26A5E4.svg?style=for-the-badge&logo=Telegram&logoColor=white" />
+    <img alt="TypeScript" arial-label="TypeScript" title="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6.svg?style=for-the-badge&logo=TypeScript&logoColor=white" />
+    <img alt="Upstash" aria-label="Upstash" title="Upstash" src="https://img.shields.io/badge/Upstash-00E9A3.svg?style=for-the-badge&logo=Upstash&logoColor=white" />
 </p>
 
 ## Overview
@@ -29,9 +31,9 @@ This is a Telegram bot that displays famous quotes.
 ## Screenshots
 
 <p align="center">
-    <img alt="Chat Screenshot" src="./assets/images/chat-screenshot.png">
-    <img alt="Help Screenshot" src="./assets/images/help-screenshot.png">
-    <img alt="Menu Screenshot" src="./assets/images/menu-screenshot.png">
+    <img alt="Chat Screenshot" aria-label="Chat Screenshot" title="Chat Screenshot" src="./assets/images/chat-screenshot.png">
+    <img alt="Help Screenshot" aria-label="Help Screenshot" title="Help Screenshot" src="./assets/images/help-screenshot.png">
+    <img alt="Menu Screenshot" aria-label="Menu Screenshot" title="Menu Screenshot" src="./assets/images/menu-screenshot.png">
 </p>
 
 ## Requirements
