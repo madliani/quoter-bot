@@ -39,7 +39,7 @@ This is a Telegram bot that displays famous quotes.
 
 1. <a href="https://nodejs.org/en" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank">Node.js</a>:
    a runtime environment for running the bot.
-2. <a href="https://nodejs.org/en" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank">pnpm</a>:
+2. <a href="https://pnpm.io/" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank">pnpm</a>:
    a package manager for installing dependencies.
 
 ## Prerequisites
