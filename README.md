@@ -54,7 +54,9 @@ Before setting up the bot, make sure you have:
 3. a token from
    <a href="https://telegram.me/BotFather" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank">BotFather</a>
    to authenticate your bot;
-4. a Redis database on
+4. a
+   <a href="https://upstash.com/redis" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank">Redis
+   database</a> on
    <a href="https://upstash.com/" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank">Upstash</a>.
 
 ## Installation
