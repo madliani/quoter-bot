@@ -1,6 +1,6 @@
 # Quoter Bot
 
-<p align="center">
+<div align="center">
     <img
         alt="Quoter logo"
         aria-label="Quoter logo"
@@ -10,7 +10,7 @@
         width="96px"
     />
     <h3 align="center">A Telegram bot that displays famous quotes</h3>
-</p>
+</div>
 
 ## Tech Stack
 
