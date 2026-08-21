@@ -21,13 +21,13 @@ and this project adheres to
 
 ## [1.2.1] - 2026-08-20
 
-## Changed
-
-- Project configuration.
-
 ### Fixed
 
 - The `README.md` file.
+
+## Changed
+
+- Project configuration.
 
 ## [1.2.0] - 2026-08-20
 
