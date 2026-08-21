@@ -14,14 +14,14 @@
 
 ## Tech Stack
 
-<p align="center">
+<div align="center">
     <a href="https://nodejs.org/en" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"><img alt="Node.js" aria-label="Node.js" title="Node.js" src="https://img.shields.io/badge/Node.js-5FA04E.svg?style=for-the-badge&logo=nodedotjs&logoColor=white" /></a>
     <a href="https://redis.io/" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"><img alt="Redis" aria-label="Redis" title="Redis" src="https://img.shields.io/badge/Redis-FF4438.svg?style=for-the-badge&logo=Redis&logoColor=white" /></a>
     <a href="https://rolldown.rs/" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"><img alt="Rolldown" aria-label="Rolldown" title="Rolldown" src="https://img.shields.io/badge/Rolldown-FF4100.svg?style=for-the-badge&logo=Rolldown&logoColor=white" /></a>
     <a href="https://telegram.org/" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"><img alt="Telegram" arial-label="Telegram" title="Telegram bot" src="https://img.shields.io/badge/Telegram-26A5E4.svg?style=for-the-badge&logo=Telegram&logoColor=white" /></a>
     <a href="https://www.typescriptlang.org/" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"><img alt="TypeScript" arial-label="TypeScript" title="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6.svg?style=for-the-badge&logo=TypeScript&logoColor=white" /></a>
     <a href="https://upstash.com/" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank"><img alt="Upstash" aria-label="Upstash" title="Upstash" src="https://img.shields.io/badge/Upstash-00E9A3.svg?style=for-the-badge&logo=Upstash&logoColor=white" /></a>
-</p>
+</div>
 
 ## Overview
 
@@ -29,11 +29,11 @@ This is a Telegram bot that displays famous quotes.
 
 ## Screenshots
 
-<p align="center">
+<div align="center">
     <img alt="Chat screenshot" aria-label="Chat screenshot" title="Chat screenshot" src="./assets/images/chat-screenshot.png">
     <img alt="Help screenshot" aria-label="Help screenshot" title="Help screenshot" src="./assets/images/help-screenshot.png">
     <img alt="Menu screenshot" aria-label="Menu screenshot" title="Menu screenshot" src="./assets/images/menu-screenshot.png">
-</p>
+</div>
 
 ## Requirements
 
