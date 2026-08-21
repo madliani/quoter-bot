@@ -9,9 +9,8 @@
         src="./assets/icons/quote.png"
         width="96px"
     />
+    <h3 align="center">A Telegram bot that displays famous quotes</h3>
 </p>
-
-<h3 align="center">A Telegram bot that displays famous quotes</h3>
 
 ## Tech Stack
 
