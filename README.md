@@ -46,9 +46,8 @@ Before setting up the bot, make sure you have:
 
 1. A Telegram account.
 2. A Telegram bot.
-3. A token from
-   <a href="https://telegram.me/BotFather" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank">BotFather</a>
-   to authenticate your bot.
+3. A token from [BotFather](https://telegram.me/BotFather) to authenticate your
+   bot.
 4. A Redis database on Upstash.
 
 ## Installation
