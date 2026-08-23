@@ -190,5 +190,4 @@ These dependencies are necessary for other dependencies to work correctly.
 
 - The **Quote icon** (`./assets/icons/quote.png`), created by Nick Roach and
   licensed under the `GPLv3` license.
-- The source of the quotes is
-  <a href="https://quotepark.com/" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank">Quotepark.com</a>.
+- The source of the quotes is [Quotepark.com](https://quotepark.com/).
