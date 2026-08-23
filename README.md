@@ -30,9 +30,18 @@ This is a Telegram bot that displays famous quotes.
 ## Screenshots
 
 <div align="center">
-    <img alt="Chat screenshot" src="./assets/images/chat-screenshot.png" title="Chat screenshot">
-    <img alt="Help screenshot" src="./assets/images/help-screenshot.png" title="Help screenshot">
-    <img alt="Menu screenshot" src="./assets/images/menu-screenshot.png" title="Menu screenshot">
+    <figure>
+        <img alt="Chat screenshot" src="./assets/images/chat-screenshot.png" title="Chat screenshot">
+        <figcaption>Chat screenshot</figcaption>
+    </figure>
+    <figure>
+        <img alt="Help screenshot" src="./assets/images/help-screenshot.png" title="Help screenshot">
+        <figcaption>Help screenshot</figcaption>
+    </figure>
+    <figure>
+        <img alt="Menu screenshot" src="./assets/images/menu-screenshot.png" title="Menu screenshot">
+        <figcaption>Menu screenshot</figcaption>
+    </figure>
 </div>
 
 ## Requirements
