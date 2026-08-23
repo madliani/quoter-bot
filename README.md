@@ -44,19 +44,12 @@ This is a Telegram bot that displays famous quotes.
 
 Before setting up the bot, make sure you have:
 
-1. A
-   <a href="https://telegram.org/" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank">Telegram
-   account</a>.
-2. A
-   <a href="https://core.telegram.org/bots" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank">Telegram
-   bot</a>.
+1. A Telegram account.
+2. A Telegram bot.
 3. A token from
    <a href="https://telegram.me/BotFather" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank">BotFather</a>
    to authenticate your bot.
-4. A
-   <a href="https://upstash.com/redis" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank">Redis
-   database</a> on
-   <a href="https://upstash.com/" referrerpolicy="no-referrer" rel="noopener noreferrer" target="_blank">Upstash</a>.
+4. A Redis database on Upstash.
 
 ## Installation
 
