@@ -31,16 +31,16 @@ This is a Telegram bot that displays famous quotes.
 
 <div align="center">
     <figure>
-        <img alt="Chat screenshot" src="./assets/images/chat-screenshot.png" title="Chat screenshot">
-        <figcaption>Chat screenshot</figcaption>
+        <img alt="Screenshot of a chat" src="./assets/images/chat-screenshot.png" title="Screenshot of a chat">
+        <figcaption>Screenshot of a chat</figcaption>
     </figure>
     <figure>
-        <img alt="Help screenshot" src="./assets/images/help-screenshot.png" title="Help screenshot">
-        <figcaption>Help screenshot</figcaption>
+        <img alt="Screenshot with the help command" src="./assets/images/help-screenshot.png" title="Screenshot with the help command">
+        <figcaption>Screenshot with the help command</figcaption>
     </figure>
     <figure>
-        <img alt="Menu screenshot" src="./assets/images/menu-screenshot.png" title="Menu screenshot">
-        <figcaption>Menu screenshot</figcaption>
+        <img alt="Screenshot with the menu of the commands" src="./assets/images/menu-screenshot.png" title="Screenshot with the menu of the commands">
+        <figcaption>Screenshot with the menu of the commands</figcaption>
     </figure>
 </div>
 
