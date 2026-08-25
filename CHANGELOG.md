@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.3.1] - 2026-08-25
+
+### Fixed
+
+- Project configuration.
+- The `README.md` file.
+
 ## [1.3.0] - 2026-08-23
 
 ### Fixed
