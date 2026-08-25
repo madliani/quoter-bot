@@ -49,6 +49,7 @@
     "keywords": [
         "bot",
         "nodejs",
+        "pnpm",
         "quotepark",
         "quoter-bot",
         "rolldown",
@@ -56,6 +57,7 @@
         "tsdown",
         "typescript",
         "upstash",
+        "vitest",
         "web-scraper"
     ],
     "license": "Unlicense",
