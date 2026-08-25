@@ -18,7 +18,7 @@ const englishWords = [
     "quotepark",
     "savebookmark",
     "tsdown",
-    "Vitest"
+    "vitest"
 ]
 
 const russianWords = []
