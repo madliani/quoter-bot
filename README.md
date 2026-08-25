@@ -199,6 +199,6 @@ These dependencies are necessary for other dependencies to work correctly.
 
 ## Attributions
 
-- The **Quote icon** (`./assets/icons/quote.png`), created by Nick Roach and
-  licensed under the `GPLv3` license.
+- The [Quote](./assets/icons/quote.png) icon, created by Nick Roach and licensed
+  under the `GPLv3` license.
 - The source of the quotes is [Quotepark.com](https://quotepark.com/).
