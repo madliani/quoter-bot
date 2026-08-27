@@ -144,6 +144,7 @@ The bot supports the following commands:
     - `src/main.ts`: a file containing the entry point of the program.
 - `types/`: a directory containing the type declarations for the configuration
   files.
+    - `types/vitest.ts`: a type declaration for the `Vitest` configuration file.
 - `.env`: an environment variables file.
 - `.gitattributes`: a `Git` attributes file.
 - `.gitignore`: a `Git` ignore file.
