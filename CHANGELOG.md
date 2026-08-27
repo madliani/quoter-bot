@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.3.5] - 2026-08-27
+
+### Fixed
+
+- The `CHANGELOG.md` file
+
 ## [1.3.4] - 2026-08-27
 
 ### Fixed
