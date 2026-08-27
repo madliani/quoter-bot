@@ -193,9 +193,9 @@ To learn about contributing to the project, see
 
 These dependencies are necessary for other dependencies to work correctly.
 
-| Dependency | Purpose                             |
-| ---------- | ----------------------------------- |
-| tslib      | Dependency for `typescript` package |
+| Dependency | Purpose                                 |
+| ---------- | --------------------------------------- |
+| tslib      | Dependency for the `typescript` package |
 
 </details>
 
