@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.3.2] - 2026-08-27
+
+### Fixed
+
+- The `README.md` file.
+
+## Changed
+
+- Update dependencies.
+
 ## [1.3.1] - 2026-08-25
 
 ### Fixed
