@@ -14,6 +14,7 @@ const englishWords = [
     "clearbookmarks",
     "deletebookmark",
     "grammyjs",
+    "hotfixes",
     "madliani",
     "quotepark",
     "savebookmark",

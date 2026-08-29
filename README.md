@@ -171,6 +171,34 @@ The bot supports the following commands:
 - `stable`: a stable branch for production builds
 - `unstable`: an unstable branch for development and testing
 
+**Note:** If you were expecting to see additional branches here, please see
+[Git Workflow](./README.md#git-workflow).
+
+## Git Workflow
+
+This is my personal project that I'm developing alone and for my own purposes.
+For that reason, a **simplified** `Git` workflow is used here.
+
+My `Git` workflow contains the following steps:
+
+0. Pull from the remote (optional)
+1. Synchronize the `unstable` branch with the `stable` branch
+2. Make a new branch for a new feature, bugfix, or hotfix from the `unstable`
+   branch
+3. Implement the feature, bugfix, or hotfix within the branch
+4. Test the feature, bugfix, or hotfix within the branch
+5. Synchronize the `unstable` branch with the `stable` branch (optional)
+6. Synchronize the branch with the `unstable` branch (optional)
+7. Retest the feature, bugfix, or hotfix within the branch (optional)
+8. Merge the branch into the `unstable` branch
+9. Merge the `unstable` branch into `stable` branch
+10. Make a release within the `stable` branch
+11. Delete the branch
+12. Push changes to the remote
+
+**Note:** The optional steps are needed if you are developing a few features,
+bugfixes, or hotfixes at the same time.
+
 ## FAQs
 
 <details>
