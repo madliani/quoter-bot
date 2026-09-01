@@ -11,7 +11,7 @@ import process from "node:process"
 const MAIN_ERRORS = {
     ME001: "Token for Telegram bot is missing (ME001)",
     ME002: "Token for the Redis database by Upstash is missing (ME002)",
-    ME003: "URL for Redis database by Upstash is missing (ME003)",
+    ME003: "URL of Redis database by Upstash is missing (ME003)",
     ME004: "Frequency of messages sent by bot is missing (ME004)"
 }
 
