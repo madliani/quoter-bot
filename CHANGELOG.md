@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.3.7] - 2026-09-01
+
+## Changed
+
+- Update dependencies
+
 ## [1.3.6] - 2026-08-29
 
 ## Added
