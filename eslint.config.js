@@ -10,9 +10,9 @@ import ts from "typescript-eslint"
 /** @type {import("eslint/config").Config} */
 export default defineConfig([
     globalIgnores([
+        ".vitest/",
         "coverage/",
         "dist/",
-        "html/",
         "node_modules/",
         "package-lock.json"
     ]),

@@ -17,8 +17,8 @@ yarn-error.log*
 dist/
 
 # Vitest
+.vitest/
 coverage/
-html/
 
 # pnpm
 pnpm-lock.yaml
