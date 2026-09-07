@@ -185,16 +185,17 @@ My `Git` workflow contains the following steps:
 1. Synchronize the `unstable` branch with the `stable` branch
 2. Make a new branch for a new feature, bugfix, or hotfix from the `unstable`
    branch
-3. Implement the feature, bugfix, or hotfix within the branch
-4. Test the feature, bugfix, or hotfix within the branch
-5. Synchronize the `unstable` branch with the `stable` branch (optional)
-6. Synchronize the branch with the `unstable` branch (optional)
-7. Retest the feature, bugfix, or hotfix within the branch (optional)
-8. Merge the branch into the `unstable` branch
-9. Merge the `unstable` branch into `stable` branch
-10. Make a release within the `stable` branch
-11. Delete the branch
-12. Push changes to the remote
+3. Push branch to the remote
+4. Implement the feature, bugfix, or hotfix within the branch
+5. Test the feature, bugfix, or hotfix within the branch
+6. Synchronize the `unstable` branch with the `stable` branch (optional)
+7. Synchronize the branch with the `unstable` branch (optional)
+8. Retest the feature, bugfix, or hotfix within the branch (optional)
+9. Merge the branch into the `unstable` branch
+10. Merge the `unstable` branch into `stable` branch
+11. Make a release within the `stable` branch
+12. Delete the branch
+13. Push changes to the remote
 
 **Note:** The optional steps are needed if you are developing a few features,
 bugfixes, or hotfixes at the same time.
