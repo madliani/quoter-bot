@@ -8,19 +8,19 @@ All notable changes to this project will be documented in this file.
 
 - The `Git` workflow
 
-## Changed
+### Changed
 
 - Update dependencies
 
 ## [1.3.7] - 2026-09-01
 
-## Changed
+### Changed
 
 - Update dependencies
 
 ## [1.3.6] - 2026-08-29
 
-## Added
+### Added
 
 - The `Git` workflow
 
@@ -48,7 +48,7 @@ All notable changes to this project will be documented in this file.
 
 - The `README.md` file
 
-## Changed
+### Changed
 
 - Update dependencies
 
@@ -83,7 +83,7 @@ All notable changes to this project will be documented in this file.
 
 - The `README.md` file
 
-## Changed
+### Changed
 
 - Update dependencies
 
@@ -108,7 +108,7 @@ All notable changes to this project will be documented in this file.
 - The `CHANGELOG.md` file
 - The `README.md` file
 
-## Changed
+### Changed
 
 - Update the bot screenshots
 
@@ -131,13 +131,13 @@ All notable changes to this project will be documented in this file.
 
 - The `README.md` file
 
-## Changed
+### Changed
 
 - Project configuration
 
 ## [1.2.0] - 2026-08-20
 
-## Added
+### Added
 
 - The bot screenshots
 
@@ -148,13 +148,13 @@ All notable changes to this project will be documented in this file.
 - The `CHANGELOG.md` file
 - The `README.md` file
 
-## Changed
+### Changed
 
 - Update dependencies
 
 ## [1.1.8] - 2026-08-17
 
-## Changed
+### Changed
 
 - Project configuration
 
@@ -167,7 +167,7 @@ All notable changes to this project will be documented in this file.
 
 ## [1.1.6] - 2026-08-16
 
-## Added
+### Added
 
 - The `cSpell` spell checker
 
@@ -175,7 +175,7 @@ All notable changes to this project will be documented in this file.
 
 - The `README.md` file
 
-## Changed
+### Changed
 
 - Upgrade dependencies
 - Project configuration
