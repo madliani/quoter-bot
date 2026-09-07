@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.3.8] - 2026-09-07
+
+### Fixed
+
+- The `Git` workflow
+
+## Changed
+
+- Update dependencies
+
 ## [1.3.7] - 2026-09-01
 
 ## Changed
