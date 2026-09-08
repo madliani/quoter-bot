@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.4.0] - 2026-09-08
+
+### Changed
+
+- Update `Node.js` version
+
 ## [1.3.9] - 2026-09-07
 
 ### Fixed
