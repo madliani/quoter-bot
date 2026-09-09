@@ -141,11 +141,8 @@ All notable changes to this project will be documented in this file.
 
 ### Fixed
 
-- The `README.md` file
-
-### Changed
-
 - Project configuration
+- The `README.md` file
 
 ## [1.2.0] - 2026-08-20
 
@@ -166,7 +163,7 @@ All notable changes to this project will be documented in this file.
 
 ## [1.1.8] - 2026-08-17
 
-### Changed
+### Fixed
 
 - Project configuration
 
@@ -185,12 +182,12 @@ All notable changes to this project will be documented in this file.
 
 ### Fixed
 
+- Project configuration
 - The `README.md` file
 
 ### Changed
 
 - Upgrade dependencies
-- Project configuration
 
 ## [1.1.5] - 2026-05-15
 
