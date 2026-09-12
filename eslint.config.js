@@ -50,13 +50,7 @@ export default defineConfig([
     { files: ["*.config.js"], settings: { "import/resolver": { node: true } } },
     {
         extends: [pluginJSON.configs.recommended],
-        files: ["**/*.json"],
-        language: "json/json",
-        rules: { "json/sort-keys": "error" }
-    },
-    {
-        extends: [pluginJSON.configs.recommended],
-        files: ["**/*.jsonc"],
+        files: ["**/*.json", "**/*.jsonc"],
         language: "json/jsonc",
         rules: { "json/sort-keys": "error" }
     }
