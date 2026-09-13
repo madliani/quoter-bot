@@ -144,7 +144,7 @@ The bot supports the following commands:
 - `types/`: a directory containing the type declarations for the configuration
   files
     - `types/vitest.ts`: a type declaration for the `Vitest` configuration file
-- `.env`: an environment variables file
+- `.env`: an environment variables file (local)
 - `.gitattributes`: a `Git` attributes file
 - `.gitignore`: a `Git` ignore file
 - `.prettierignore`: a `Prettier` ignore file
