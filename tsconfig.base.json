@@ -47,11 +47,6 @@
         "noUncheckedSideEffectImports": true,
         "noUnusedLocals": true,
         "noUnusedParameters": true,
-        "paths": {
-            "@bot/*": ["${configDir}/bot/*"],
-            "@lib/*": ["${configDir}/lib/*"],
-            "@src/*": ["${configDir}/src/*"]
-        },
         "preserveConstEnums": true,
         "pretty": true,
         "removeComments": true,
