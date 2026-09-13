@@ -124,26 +124,25 @@ The bot supports the following commands:
 
 ## Project Structure
 
-- `assets/`: a directory containing the assets for the `README.md` file
-    - `assets/icons/`: a directory containing the icons for the `README.md` file
-        - `assets/icons/quote.png`: a quote icon and also the bot picture
-    - `assets/images/`: a directory containing the images for the `README.md`
-      file
-        - `assets/icons/quoter-description.png`: a description picture for the
+- `assets/`: a directory containing assets for the `README.md` file
+    - `assets/icons/`: a directory containing icons for the `README.md` file
+        - `assets/icons/quote.png`: the quote icon and also the bot picture
+    - `assets/images/`: a directory containing images for the `README.md` file
+        - `assets/icons/quoter-description.png`: the description picture for the
           bot
-- `bot/`: a directory containing the source files for the bot
-    - `bot/assets/`: a directory containing the assets for the bot
-        - `bot/assets/json/`: a directory containing the texts for the bot UI
+- `bot/`: a directory containing source files for the bot
+    - `bot/assets/`: a directory containing assets for the bot
+        - `bot/assets/json/`: a directory containing texts for the bot UI
     - `bot/lib/`: a directory containing libraries for the bot
     - `bot/bot.ts`: a file containing the bot
-- `lib/`: a directory containing the source files for libraries for the bot
+- `lib/`: a directory containing source files for libraries for the bot
 - `src/`: a directory containing the entry point of the `Node.js` program
-    - `src/types/`: a directory containing the type declarations for the entry
-      point of the program
+    - `src/types/`: a directory containing type declarations for the entry point
+      of the program
     - `src/main.ts`: a file containing the entry point of the program
-- `types/`: a directory containing the type declarations for the configuration
-  files
-    - `types/vitest.ts`: a type declaration for the `Vitest` configuration file
+- `types/`: a directory containing type declarations for the configuration files
+    - `types/vitest.ts`: a file containing type declarations for the `Vitest`
+      configuration file
 - `.env`: an environment variables file (local)
 - `.gitattributes`: a `Git` attributes file
 - `.gitignore`: a `Git` ignore file
@@ -158,7 +157,7 @@ The bot supports the following commands:
 - `LICENSE.txt`: a license file
 - `package.json`: a `package.json` file
 - `pnpm-lock.yaml`: a `pnpm` lockfile
-- `pnpm-workspace.yaml`: a `pnpm` Workspace file
+- `pnpm-workspace.yaml`: a `pnpm-workspace.yaml` file
 - `prettier.config.js`: a JavaScript-based `Prettier` configuration file
 - `README.md`: a `README` file
 - `tsconfig.app.json`: a `TypeScript` configuration file for the bot
