@@ -148,6 +148,8 @@ The bot supports the following commands:
 - `.gitattributes`: a `Git` attributes file
 - `.gitignore`: a `Git` ignore file
 - `.prettierignore`: a `Prettier` ignore file
+- `.tsbuildinfo`: a file of the `TypeScript` compiler for storing incremental
+  compilation information (local)
 - `AUTHORS.txt`: an `AUTHORS` file
 - `CHANGELOG.md`: a `CHANGELOG.md` file
 - `CONTRIBUTING.md`: a `CONTRIBUTING.md` file
