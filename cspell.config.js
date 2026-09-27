@@ -26,7 +26,16 @@ const russianWords = []
 
 /** @type {import("cspell").CSpellSettings} */
 export default defineConfig({
-    ignorePaths: ["public/", "pnpm-lock.yaml"],
+    ignorePaths: [
+        ".vitest/",
+        "assets/",
+        "coverage/",
+        "dist/",
+        "node_modules/",
+        "package-lock.json",
+        "pnpm-lock.yaml",
+        "public/"
+    ],
     import: ["@cspell/dict-ru_ru/cspell-ext.json"],
     language: language,
     useGitignore: true,
