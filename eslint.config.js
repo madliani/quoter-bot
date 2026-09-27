@@ -42,8 +42,7 @@ export default defineConfig([
             "import/no-named-as-default-member": "off",
             "import/order": "off",
             "no-secrets/no-pattern-match": "error",
-            "no-secrets/no-secrets": "error",
-            "sort-imports": "off"
+            "no-secrets/no-secrets": "error"
         },
         settings: { "import/resolver": { typescript: true } }
     },
