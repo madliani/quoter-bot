@@ -60,7 +60,7 @@
         "vitest",
         "web-scraper"
     ],
-    "license": "Unlicense",
+    "license": "UNLICENSED",
     "name": "quoter-bot",
     "os": [
         "linux"
