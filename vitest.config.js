@@ -14,7 +14,11 @@ export default defineConfig({
         environment: "node",
         globals: false,
         globalSetup: [],
-        include: ["./lib/**/*.test.ts", "./src/**/*.test.ts"],
+        include: [
+            "./bot/**/*.test.ts",
+            "./lib/**/*.test.ts",
+            "./src/**/*.test.ts"
+        ],
         name: "quoter-bot",
         passWithNoTests: true,
         reporters: ["default", "html"],
