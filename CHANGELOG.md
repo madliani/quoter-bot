@@ -317,7 +317,7 @@ All notable changes to this project will be documented in this file.
 
 ### Changed
 
-- The `SSPL` license was replaced by the `Unlicense`
+- The `SSPL` license was replaced by the `Unlicense` license
 
 ### Removed
 
