@@ -1,5 +1,15 @@
 {
     "compilerOptions": {
+        "lib": [
+            "ES2022.array",
+            "ES2022.error",
+            "ES2022.intl",
+            "ES2022.object",
+            "ES2022.regExp",
+            "ES2022.string",
+            "ES2022"
+        ],
+        "noEmit": false,
         "paths": {
             "@bot/*": ["${configDir}/bot/*"],
             "@lib/*": ["${configDir}/lib/*"],
@@ -8,12 +18,18 @@
         "types": ["node"]
     },
     "exclude": [
-        ".vitest/",
-        "coverage/",
-        "dist/",
-        "node_modules/",
-        "**/*.test.ts"
+        "${configDir}/.vitest/",
+        "${configDir}/coverage/",
+        "${configDir}/dist/",
+        "${configDir}/node_modules/"
     ],
     "extends": "./tsconfig.base.json",
-    "include": ["bot/**/*.ts", "lib/**/*.ts", "src/**/*.ts"]
+    "include": [
+        "${configDir}/bot/**/*.test.ts",
+        "${configDir}/bot/**/*.ts",
+        "${configDir}/lib/**/*.test.ts",
+        "${configDir}/lib/**/*.ts",
+        "${configDir}/src/**/*.test.ts",
+        "${configDir}/src/**/*.ts"
+    ]
 }
